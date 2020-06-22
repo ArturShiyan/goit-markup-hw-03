@@ -113,6 +113,9 @@
   text-decoration: none;
   color: var(--main-white-color);
 }
+.main-banner {
+  width: 1600px;
+}
 .main-foto h1 {
   position: absolute;
   width: 696px;
