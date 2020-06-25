@@ -19,6 +19,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+/*Хедер*/
 .had-nav-logo {
   width: 1600px;
 }
@@ -30,7 +31,6 @@
 }
 .nav-logo {
   display: flex;
-  width: 1170px;
   line-height: 80px;
 }
 .had-container {
@@ -132,12 +132,15 @@
   text-transform: uppercase;
   color: #ffffff;
 }
+
 .main-foto {
   display: block;
-  margin-bottom: 94px;
   width: 1600px;
   height: 600px;
   background-image: url("../img/photo/Headerimg.png");
+}
+.main-section {
+  padding-top: 94px;
 }
 .cont-icon {
   display: flex;
@@ -206,26 +209,31 @@
 .card-foto:not(:last-child) {
   margin-right: 30px;
 }
+/*Чем мы занимаемся*/
 .making-card {
   width: 1600px;
 }
+.making-card h2 {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
 .hat {
   font-family: var(--font-family-nav);
   font-style: normal;
   font-weight: bold;
-  margin-bottom: 50px;
   text-align: center;
+
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
   color: var(--nav-color);
-  padding-top: 94px;
 }
 .making {
   display: flex;
   list-style: none;
 }
-
+/*Наша команда*/
 .our-team {
   width: 1600px;
   height: 702px;
@@ -236,6 +244,8 @@
 }
 .our-team h2 {
   text-align: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 .our-team h3 {
   font-family: var(--font-family-nav);
@@ -385,7 +395,10 @@
   margin-right: auto;
   margin-bottom: 94px;
 }
-
+.icon-client-team h2 {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
 .icon-client-item a {
   display: flex;
   width: 170px;
